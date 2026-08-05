@@ -1,0 +1,35 @@
+{
+  "output": "work\\outputs\\baseline_action_score.csv",
+  "rows": 30000,
+  "score_formula": {
+    "ctr_gap_score": 0.2,
+    "freshness_risk_score": 0.35,
+    "visibility_score": 0.45
+  },
+  "signal_verdicts": {
+    "ctr_vs_position": "CONFIRMED",
+    "staleness": "MIXED"
+  },
+  "top_10_content_ids": [
+    "content_a5dbb404bdc2",
+    "content_c8e9d6ab9013",
+    "content_4a6607efcb46",
+    "content_c1fe78bc4e37",
+    "content_b115f7c74779",
+    "content_cf56e2e2e282",
+    "content_d0cc5baa4995",
+    "content_d07ea098353c",
+    "content_36ff89c8214e",
+    "content_42634cb0c5a3"
+  ],
+  "top_actions": {
+    "monitor": 20234,
+    "refresh": 17,
+    "refresh_and_review_ctr": 9749
+  },
+  "top_reasons": {
+    "ctr_gap_visible_page": 9749,
+    "general_review": 20234,
+    "stale_visible_page": 17
+  }
+}
