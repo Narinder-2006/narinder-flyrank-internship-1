@@ -13,6 +13,7 @@ STEPS = [
     ("03_train_model.py", "Train — logistic regression, decision tree, random forest (client-holdout split)"),
     ("04_evaluate_and_export.py", "Evaluate — ranked refresh queue, charts, and the Markdown report"),
     ("05_build_pdf_report.py", "Report — a shareable PDF summary"),
+    ("06_build_research_paper.py", "Publish — the deployed research paper and submission URL"),
 ]
 
 
@@ -42,6 +43,7 @@ def main() -> None:
         print(f"Queue: {summary['queue_output']}")
         print(f"Report: {summary['report_output']}")
         print(f"PDF: {OUTPUT_DIR / 'flyrank_refresh_model_results.pdf'}")
+        print(f"Paper: {ROOT / 'docs' / 'index.html'}")
 
 
 if __name__ == "__main__":
